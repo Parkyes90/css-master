@@ -1,0 +1,15 @@
+.father {
+  display: grid;
+  grid-template-columns: 240px 500px;
+  grid-template-rows: 100vh 100vh;
+  gap: 10px;
+}
+
+.child {
+  background: peru;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
