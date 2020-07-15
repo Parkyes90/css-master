@@ -3,8 +3,6 @@
   gap: 5px;
   color: white;
   grid-template-columns: repeat(auto-fit, minmax(20px, max-content));
-  grid-auto-rows: 100px;
-  margin-bottom: 30px;
 }
 
 .item:nth-child(odd) {
