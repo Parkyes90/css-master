@@ -1,6 +1,20 @@
-body {
-  background: peru;
-  a {
+@import "_variables.scss";
+
+h2 {
+  color: $bg;
+}
+
+.box {
+  h2 {
     color: blue;
+    &:hover {
+      color: red;
+    }
+  }
+  button {
+    color: red;
+  }
+  &:hover {
+    background-color: green;
   }
 }
