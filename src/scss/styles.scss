@@ -1,12 +1,12 @@
-@import "_variables";
-@import "_mixins";
-a {
-  margin-bottom: 10px;
-  &:nth-child(odd) {
-    @include link("odd");
-  }
+@import "_buttons";
 
-  &:nth-child(even) {
-    @include link("even");
-  }
+a {
+  @extend %button;
+  text-decoration: none;
+}
+
+button {
+  @extend %button;
+  border: none;
+  outline: none;
 }
